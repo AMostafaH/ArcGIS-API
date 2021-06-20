@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ARCGIS API</title>
+        <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/css/main.css">
+	    <link rel="stylesheet" href="style.css">
+        <script src="https://js.arcgis.com/4.18/"></script>
+    </head>
+    <body>
+        <div id="viewDiv"></div>
+        <button id="baseMapToggle">Show / Hide BaseMap</button>
+        <button id="legendToggle">Show / Hide Legend</button>
+        <button id="clear">Clear Symbols</button>
+        <select id="category">
+            <option disabled selected>--Select Category--</option>
+            <option value="Hospital">Hospital</option>
+            <option value="ATM">ATM</option>
+            <option value="Pharmacy">Pharmacy</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Coffee Shop">Coffee Shop</option>
+            <option value="Gas Station">Gas Station</option>
+        </select>
+        <select id="selectCNTRY">
+            <option value="All">All</option>
+        </select>
+        <select id="selectCITY">
+            <option value="All">All</option>
+        </select>
+      <script src="main.js"></script>  
+    </body>
+</html>
